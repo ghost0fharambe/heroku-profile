@@ -25,11 +25,7 @@ require("./routes/html-routes")(app);
 
 // Starting the server ------------------------------------/
 app.listen(PORT, function() {
-  console.log(
-    "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-    PORT,
-    PORT
-  );
+  console.log("==> 🌎  Listening on port %s.", PORT);
 });
 
 module.exports = app;
